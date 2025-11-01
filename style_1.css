@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.headersed_1 {
+  width: 5vw;
+  height: auto;
+  margin-left: 35px;
+}
+.headersed_2 {
+  font-size: 54px;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+
+.headersed_3 {
+  width: 34vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+
+@font-face {
+  font-family: FontName;
+  src: url("path/filename.eot");
+  src: url("path/filename.eot?#iefix") format("embedded-opentype"),
+    url("path/filename.woff2") format("woff2"),
+    url("path/filename.woff") format("woff"),
+    url("path/filename.ttf") format("truetype");
+}
+
+body {
+  font-family: "FontName", Helvetica, Arial, sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 99vw;
+}
+
+.nor_but {
+  height: 50px;
+  border-radius: 100px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.no_bor {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(145, 137, 137);
+}
+
+.no_bor:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+.yes_bor {
+  width: 130px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(128, 125, 125);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.yes_bor:hover {
+  background-color: rgb(255, 251, 251);
+  color: black;
+  transition: all 0.3s;
+}
+
+.main {
+  width: 95vw;
+  height: 800px;
+  color: rgb(36, 36, 36);
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: rgba(54, 52, 52, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.guessed {
+  width: 20vw;
+  height: 150px;
+  border: 1px solid rgb(94, 92, 92);
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.guessed:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+.guessed_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.submit {
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+}
+
+.submit:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.guessed_2 {
+  width: 60vw;
+  height: 750px;
+  border: 1px solid white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sub_guss {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+
+  width: 850px;
+  height: 100px;
+  border: 1px solid rgb(67, 65, 65);
+  border-radius: 20px;
+}
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.part1_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 90px;
+}
+
+.sub_guss_1 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  width: 400px;
+  height: 70px;
+  border: 1px solid rgb(67, 65, 65);
+  border-radius: 20px;
+}
+
+.part1_new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.sub_guss_new {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  width: 750px;
+  height: 100px;
+  border: 1px solid rgb(255, 252, 255);
+  border-radius: 20px;
+  position: relative;
+  bottom: 80px;
+}
